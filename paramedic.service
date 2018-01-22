@@ -1,0 +1,13 @@
+[Unit]
+Description=Paramedic - OpenSfera Service
+After=mongodb.service
+
+[Service]
+Type=idle
+User=sfera
+WorkingDirectory=/usr/local/sfera/paramedic
+ExecStart=/usr/bin/node /usr/local/sfera/paramedic/index.js
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

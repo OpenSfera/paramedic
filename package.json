@@ -1,0 +1,23 @@
+{
+  "name": "paramedic",
+  "version": "1.0.0",
+  "description": "a simle webapp for interface with sfera...",
+  "main": "index.js",
+  "scripts": {
+    "test": "/bin/bash ./tests/run.sh",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/pnicorelli/paramedic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/pnicorelli/paramedic#readme",
+  "dependencies": {
+    "cron": "^1.3.0",
+    "moment": "^2.19.2",
+    "mongodb": "^2.2.33",
+    "mqtt": "^2.14.0"
+  }
+}
